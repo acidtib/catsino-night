@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catsino Night</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="l-wrapper">
+      <div class="c-header">
+        <img
+          class="c-logo"
+          src="img/logo.png"
+          draggable="false"
+        />
+        <a href="https://www.twitch.tv/hausofcatz" target="_blank">
+          <button class="c-button c-button--primary">View Live</button>
+        </a>
+      </div>
+
+      <div class="l-grid">
+        <div class="l-grid__item l-grid__item--sticky">
+          <div class="c-card">
+            <div class="c-card__body">
+              <p>Not Sure what to show here!</p>
+            </div>
+          </div>
+
+          <div class="c-card u-bg--light-gradient u-text--dark">
+            <div class="c-card__body">
+              <div class="u-display--flex u-justify--space-between">
+                <div class="u-text--left">
+                  <div class="u-text--small">My Rank</div>
+                  <h2>3rd Place</h2>
+                </div>
+                <div class="u-text--right">
+                  <div class="u-text--small">My Score</div>
+                  <h2>24</h2>
+                </div>
+              </div>
+            </div>
+          </div>          
+        </div>
+
+        <div class="l-grid__item">
+          <div class="c-card">
+            <div class="c-card__header">
+              <h3>Players</h3>
+            </div>
+
+            <div class="c-card__body">
+              <ul class="c-list" id="list">
+                <li class="c-list__item">
+                  <div class="c-list__grid">
+                    <div class="u-text--left u-text--small u-text--medium">
+                      Rank
+                    </div>
+                    <div class="u-text--left u-text--small u-text--medium">
+                      Player
+                    </div>
+                    <div class="u-text--right u-text--small u-text--medium">
+                      # of Points
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
